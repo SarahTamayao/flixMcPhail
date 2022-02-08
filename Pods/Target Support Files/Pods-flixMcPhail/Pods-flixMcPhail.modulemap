@@ -1,0 +1,6 @@
+framework module Pods_flixMcPhail {
+  umbrella header "Pods-flixMcPhail-umbrella.h"
+
+  export *
+  module * { export * }
+}
