@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34A0B10527C0406300F58DD2 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A0B10427C0406300F58DD2 /* MovieDetailsViewController.swift */; };
+		34A0B10727C04CA700F58DD2 /* MovieGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A0B10627C04CA700F58DD2 /* MovieGridViewController.swift */; };
+		34A0B10927C0535700F58DD2 /* MovieGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A0B10827C0535700F58DD2 /* MovieGridCell.swift */; };
 		34A1657F27B30F850057E638 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A1657E27B30F850057E638 /* AppDelegate.swift */; };
 		34A1658127B30F850057E638 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A1658027B30F850057E638 /* SceneDelegate.swift */; };
 		34A1658327B30F850057E638 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A1658227B30F850057E638 /* MoviesViewController.swift */; };
@@ -43,6 +46,9 @@
 
 /* Begin PBXFileReference section */
 		22B4DD859EAA8D0B0E4135C5 /* Pods_flixMcPhailTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_flixMcPhailTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34A0B10427C0406300F58DD2 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
+		34A0B10627C04CA700F58DD2 /* MovieGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridViewController.swift; sourceTree = "<group>"; };
+		34A0B10827C0535700F58DD2 /* MovieGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridCell.swift; sourceTree = "<group>"; };
 		34A1657B27B30F850057E638 /* flixMcPhail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flixMcPhail.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34A1657E27B30F850057E638 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		34A1658027B30F850057E638 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -127,6 +133,9 @@
 				34A1658227B30F850057E638 /* MoviesViewController.swift */,
 				34A165B127B31EF90057E638 /* MovieCell.swift */,
 				34A1658427B30F850057E638 /* Main.storyboard */,
+				34A0B10827C0535700F58DD2 /* MovieGridCell.swift */,
+				34A0B10627C04CA700F58DD2 /* MovieGridViewController.swift */,
+				34A0B10427C0406300F58DD2 /* MovieDetailsViewController.swift */,
 				34A1658A27B30F880057E638 /* Assets.xcassets */,
 				34A1658C27B30F880057E638 /* LaunchScreen.storyboard */,
 				34A1658F27B30F880057E638 /* Info.plist */,
@@ -162,7 +171,6 @@
 				CFEECE175DA7BDF1EB34E0FC /* Pods-flixMcPhailTests.debug.xcconfig */,
 				95F4BC9EBF080B37AE8F6D46 /* Pods-flixMcPhailTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -273,7 +281,7 @@
 			);
 			mainGroup = 34A1657227B30F850057E638;
 			packageReferences = (
-				34A165B327B324210057E638 /* XCRemoteSwiftPackageReference "AlamofireImage.git" */,
+				34A165B327B324210057E638 /* XCRemoteSwiftPackageReference "AlamofireImage" */,
 			);
 			productRefGroup = 34A1657C27B30F850057E638 /* Products */;
 			projectDirPath = "";
@@ -423,6 +431,9 @@
 			files = (
 				34A1658327B30F850057E638 /* MoviesViewController.swift in Sources */,
 				34A1658927B30F850057E638 /* flixMcPhail.xcdatamodeld in Sources */,
+				34A0B10527C0406300F58DD2 /* MovieDetailsViewController.swift in Sources */,
+				34A0B10727C04CA700F58DD2 /* MovieGridViewController.swift in Sources */,
+				34A0B10927C0535700F58DD2 /* MovieGridCell.swift in Sources */,
 				34A1657F27B30F850057E638 /* AppDelegate.swift in Sources */,
 				34A165B227B31EF90057E638 /* MovieCell.swift in Sources */,
 				34A1658127B30F850057E638 /* SceneDelegate.swift in Sources */,
@@ -773,7 +784,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		34A165B327B324210057E638 /* XCRemoteSwiftPackageReference "AlamofireImage.git" */ = {
+		34A165B327B324210057E638 /* XCRemoteSwiftPackageReference "AlamofireImage" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/AlamofireImage.git";
 			requirement = {
@@ -786,7 +797,7 @@
 /* Begin XCSwiftPackageProductDependency section */
 		34A165B427B324210057E638 /* AlamofireImage */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 34A165B327B324210057E638 /* XCRemoteSwiftPackageReference "AlamofireImage.git" */;
+			package = 34A165B327B324210057E638 /* XCRemoteSwiftPackageReference "AlamofireImage" */;
 			productName = AlamofireImage;
 		};
 /* End XCSwiftPackageProductDependency section */
